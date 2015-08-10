@@ -1,11 +1,5 @@
-module.exports = {
-  Bike: function () {
+module.exports = function () {
 
-  },
-
-  Foo: function Bar() {
-
-  }
 }
 
 // ---------- your code below here ----------

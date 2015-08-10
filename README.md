@@ -92,7 +92,7 @@ Which means that you can do the following:
 ```js
 var someNum = 42
 var someObj = {foo: "bar"}
-module.exports = foo
+module.exports = someObj
 module.exports.num = someNum
 ```
 
