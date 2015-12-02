@@ -23,7 +23,7 @@ https://students.galvanize.com/standards/53
 
 ## Activities
 
-** 00 - Read up a little**
+**00 - Read up a little**
 
 Read through / interact with the following articles - look at some of the examples, run them in a JavaScript file with `node` in `00-playground`.  Write down any questions you have, and hopefully by the end of this lesson they are all answered.
 
@@ -32,7 +32,7 @@ Read through / interact with the following articles - look at some of the exampl
 - http://openmymind.net/2012/2/3/Node-Require-and-Exports/
 - http://www.hacksparrow.com/node-js-exports-vs-module-exports.html
 
-** 01 - What is `module.exports` by default?**
+**01 - What is `module.exports` by default?**
 
 1. Open `01-default/run.js`
 1. Open `01-default/base.js`
@@ -42,7 +42,7 @@ What do you see?  Based on this experiment, what's the _type_ of `module.exports
 
 So `module.exports` by default is an `Object`.  That's convenient, because it means that we can properties on it!
 
-** 02 - Setting properties on `module.exports`**
+**02 - Setting properties on `module.exports`**
 
 If `module.exports` is an object, then you can set properties on it directly, right?
 
@@ -50,7 +50,7 @@ _Without_ redefining `module.exports` (that is, without writing `module.exports 
 
 When you think you are done, peak at the solution to `02-properties`.  How'd you do?
 
-** 03 - Setting `module.exports` directly**
+**03 - Setting `module.exports` directly**
 
 Hmmm...  So we know that `module.exports` is an object.  But what is `module`??
 
@@ -64,7 +64,7 @@ When you are done, stop for a minute and think deeply about `module.exports`.  W
 
 > YOUR ANSWER HERE
 
-** 04 - Exporting variables**
+**04 - Exporting variables**
 
 Examine the following code:
 
@@ -100,11 +100,11 @@ That is to say that there is nothing special or different about `module.exports`
 
 Go to `04-variables` and alter the `bike.js` and `car.js` classes to export the correct variables.
 
-** 05 - Refactor**
+**05 - Refactor**
 
 A common pattern is to refactor to modules.  That is, you start with some variable assignments, and then move values to another module (file) and require them.  Take a minute to go to `05-refactoring` and move all of the values out to different modules.
 
-** 06 - Builtin modules / npm modules**
+**06 - Builtin modules / npm modules**
 
 When you require your own files you use relative paths, that look lik `./lib/some-module`.  You can also require builtin modules and modules installed via npm.  When you require builtin modules or modules from npm, you can reference them by name.
 
