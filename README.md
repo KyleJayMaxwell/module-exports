@@ -40,7 +40,7 @@ Read through / interact with the following articles - look at some of the exampl
 
 What do you see?  Based on this experiment, what's the _type_ of `module.exports`?  If you are still a bit confused, log out `typeof module.exports` in either file and run again.
 
-So `module.exports` by default is an `Object`.  That's convenient, because it means that we can properties on it!
+So `module.exports` by default is an `Object`.  That's convenient, because it means that we can add properties to it!
 
 **02 - Setting properties on `module.exports`**
 
@@ -48,7 +48,7 @@ If `module.exports` is an object, then you can set properties on it directly, ri
 
 _Without_ redefining `module.exports` (that is, without writing `module.exports = {}`), set properties directly on `module.exports` and finish everything in the `02-properties/run.js` directory.
 
-When you think you are done, peak at the solution to `02-properties`.  How'd you do?
+When you think you are done, peek at the solution to `02-properties`.  How'd you do?
 
 **03 - Setting `module.exports` directly**
 
