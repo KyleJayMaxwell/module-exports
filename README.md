@@ -40,7 +40,7 @@ Read through / interact with the following articles - look at some of the exampl
 
 What do you see?  Based on this experiment, what's the _type_ of `module.exports`?  If you are still a bit confused, log out `typeof module.exports` in either file and run again.
 
-So `module.exports` by default is an `Object`.  That's convenient, because it means that we can properties on it!
+So `module.exports` by default is an `Object`.  That's convenient, because it means that we can add properties to it!
 
 **02 - Setting properties on `module.exports`**
 
