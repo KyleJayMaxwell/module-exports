@@ -48,7 +48,7 @@ If `module.exports` is an object, then you can set properties on it directly, ri
 
 _Without_ redefining `module.exports` (that is, without writing `module.exports = {}`), set properties directly on `module.exports` and finish everything in the `02-properties/run.js` directory.
 
-When you think you are done, peak at the solution to `02-properties`.  How'd you do?
+When you think you are done, peek at the solution to `02-properties`.  How'd you do?
 
 **03 - Setting `module.exports` directly**
 
