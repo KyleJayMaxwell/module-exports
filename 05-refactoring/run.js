@@ -9,7 +9,7 @@ var utils = {
   }
 }
 var encode = utils.encode
-var decode = utils.encode
+var decode = utils.decode
 var flipIt = function (string) {
   return string.split('').reverse().join('')
 }
