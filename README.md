@@ -19,8 +19,6 @@ By the end of this lesson you should be able to define and require modules.  Mor
 - Write valid require statements for relative paths
 - Write valid require statements for npm modules / builtin modules
 
-https://students.galvanize.com/standards/53
-
 ## Activities
 
 **00 - Read up a little**
