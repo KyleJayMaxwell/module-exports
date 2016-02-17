@@ -1,15 +1,15 @@
-var items = ["cereal", "lightbulbs", "paper towels"]
-var now = new Date
-var utils = {
-  encode: function (string) {
-    return string.toUpperCase()
-  },
-  decode: function (string) {
-    return string.toLowerCase()
-  }
-}
+var items = require('./items')
+console.log(items);
+
+var now = require('./now')
+console.log(now);
+
+var utils = require('./utils')
 var encode = utils.encode
 var decode = utils.decode
-var flipIt = function (string) {
-  return string.split('').reverse().join('')
-}
+console.log(encode('hello'));
+console.log(decode('BOWTIE'));
+
+var flipIt = require('./flip')
+console.log(flipIt('Pizza'));
+

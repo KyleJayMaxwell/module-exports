@@ -1,1 +1,1 @@
-console.log(module);
+console.log(typeof module);
